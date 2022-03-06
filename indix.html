@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Document</title>
+</head>
+<body>
+   
+   <header class="header">
+      
+      <div class="container">
+         
+         <div class="header__inside">
+            
+            <a href="./indix.html" class="header__logo-link">
+               <img src="./img/logo.svg" alt="Site logo">
+            </a>
+            
+            <div class="header__links-case">
+               
+               <nav class="header__nav nav">
+                  
+                  <ul class="nav__list">
+                     
+                     <li class="nav__item">
+                        <a href="#" class="nav__link nav__link--active">
+                           Services
+                        </a>
+                     </li>
+                     
+                     <li class="nav__item">
+                        <a href="#" class="nav__link">
+                           Portfolio
+                        </a>
+                     </li>
+                     
+                     <li class="nav__item">
+                        <a href="#" class="nav__link">
+                           About us
+                        </a>
+                     </li>
+                     
+                  </ul>
+                  
+               </nav>
+               
+               <ul class="header__language-list language">
+                  
+                  <li class="language__item">
+                     
+                     <a href="#" class="language__link">
+                        Uz
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="language__item">
+                     
+                     <a href="#" class="language__link">
+                        Ru
+                     </a>
+                     
+                  </li>
+                  
+                  <li class="language__item">
+                     
+                     <a href="#" class="language__link language__link--active">
+                        En
+                     </a>
+                     
+                  </li>
+                  
+               </ul>
+               
+            </div>
+            
+            <button class="header__button" type="button">
+               <img src="./img/header-btn.svg" alt="">
+            </button>
+            
+         </div>
+         
+      </div>
+      
+   </header>
+   
+   <main>
+      
+      <section class="base">
+         
+         <div class="container">
+            
+            <div class="base__inside">
+               
+               <form action="https://echo.htmlacademy.ru/courses" method="post" class="base__form form">
+                  
+                  <div class="form__case">
+                     <label class="form__label">
+                        Name and Surname
+                        <input type="text" required class="form__input form__input--name" name="User Name" placeholder="Enter your name">
+                     </label>
+                     <label class="form__label">
+                        Your Company
+                        <input type="text" required class="form__input form__input--company" name="User Company Name" placeholder="Enter Company">
+                     </label>
+                  </div>
+                  <div class="form__case">
+                     <label class="form__label">
+                        Telegram username
+                        <input type="text" required class="form__input form__input--tg" name="User TG Account" placeholder="Enter your TG username">
+                     </label>
+                     <label class="form__label">
+                        Phone number
+                        <input type="number" required class="form__input form__input--number" name="User Number" value="9989">
+                     </label>
+                  </div>
+                  <div class="form__case">
+                     <label class="form__label">
+                        Choose contact type with you
+                        <select name="Contact Type" required class="form__select form__select--contact">
+                           <option class="option" value="Telegram">Telegram</option>
+                           <option class="option" value="Whatsapp">Whatsapp</option>
+                           <option class="option" value="Facebook">Facebook</option>
+                           <option class="option" value="Email">Email</option>
+                        </select>
+                     </label>
+                     <label class="form__label">
+                        Choose your site type
+                        <select name="Site Type" required class="form__select form__select--type">
+                           <option class="option" value="Corparative">Corparative site</option>
+                           <option class="option" value="Entertainment">Entertainment site</option>
+                           <option class="option" value="Advertising">Advertising site</option>
+                           <option class="option"  value="Educational">Educational site</option>
+                        </select>
+                     </label>
+                  </div>
+                  
+                  <label class="form__label">
+                     Massage
+                     <textarea name="User Massage" required class="form__textaria"></textarea>
+                  </label>
+                  
+                  <button class="form__button" type="submit">
+                     Send
+                  </button>
+               </form>
+               
+               <div class="base__info">
+                  <h2 class="base__title">
+                     Ux & Ui design
+                  </h2>
+                  <p class="base__describe">
+                     In the current tech scenario, one can't predict what device their user will use to interact with a product. This is why it's always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+                  </p>
+               </div>
+               
+            </div>
+            
+         </div>
+         
+      </section>
+      
+   </main>
+   
+   
+   <script src="./js/main.js"></script>
+</body>
+</html>
