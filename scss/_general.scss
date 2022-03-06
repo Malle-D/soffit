@@ -57,7 +57,9 @@ body::after{
 	body::before{
 		content: none;
 	}
-
+	.body--add{
+		overflow: hidden;
+	}
 }
 
 img {

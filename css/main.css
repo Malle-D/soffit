@@ -437,6 +437,9 @@ body::after {
   body::before {
     content: none;
   }
+  .body--add {
+    overflow: hidden;
+  }
 }
 
 img {
@@ -593,6 +596,9 @@ img {
   .header__logo-link {
     width: 71px;
     height: 30px;
+  }
+  .header--opener {
+    overflow: hidden;
   }
   .header--opener .header__links-case {
     left: 0;
